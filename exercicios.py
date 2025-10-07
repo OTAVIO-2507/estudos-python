@@ -47,7 +47,8 @@ def escolher_opcao():
 
     # Condicional para realizar as ações conforme a escolha do usuário
     if escolha_uma_opcao == 1:
-        print(f' {lista_de_numeros}')  # Exibe a lista de números de 1 a 10
+        for numero in lista_de_numeros:
+            print(numero)  # Exibe a lista de números de 1 a 10
     elif escolha_uma_opcao == 2:
         print(f'{lista_de_nomes}')  # Exibe a lista de nomes
     elif escolha_uma_opcao == 3:
